@@ -1,0 +1,396 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner{
+    width:100%;
+    height: 650px;
+    background-image:url(1-18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width:90%;
+    height: auto;
+    background-color: rgba(255,200,200,.7);
+    border-radius: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width:50%;
+    height: 60px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#333;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text{
+    width:100%;
+    position: relative;
+    top:40px;
+    left: 20px;
+    font-size: 50px;
+    text-align: left;
+}
+.text h1{
+    color:#f15;
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text .date{
+    color:#fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text .date:hover{
+    background-color: #fff;
+    color:#f15;
+}
+.section{
+    width:100%;
+    height: auto;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.invetation{
+    width:100%;
+    height: auto;
+    background-image:url(intro_bg03.jpg);
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.invetation img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 10px solid #f15;
+    border-bottom: 10px solid #f15;
+    margin-bottom: 20px;
+}
+
+.card {
+
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background: url(invitation_card_wc_bg.jpg);
+    color:gold;
+    text-shadow: 10px; 
+    text-decoration-color:gold;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+    border-radius: 50px 0 50px 0;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .card p{
+      color: gold;
+      font-size: small;
+  }
+  .card h1{
+    font-size:30px;
+} 
+
+.story{
+    width:100%;
+    height: auto;
+    background-image:url(golden_frame-p3rdec1s7wsincn3uv8ept2c062n666kuw71azjvd8.png), url(travel_bg03.jpg);
+    background-position: top center, left top;
+    background-repeat: no-repeat, repeat;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+
+   
+}
+.story1{
+    width:100%;
+    height: auto;
+    background-image:url(travel_bg03.jpg);
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.us1 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.us2 {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    
+}
+.section h2{
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 60px;
+}
+.us1 {
+    display: flex;
+    flex-direction: column;
+}
+.us1 span{
+    color:#fff;
+    font-size: 40px;
+    padding: 8px;
+    background-color: #f15;
+    border-radius: 8px;
+}
+
+.weddingtimeline{
+    width:100%;
+    height: auto;
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.weddingtimeline img{
+    width:200px;
+    height: 200px;
+    border-radius: 05%;
+    margin-bottom: 20px;
+}
+.weddingtimeline h2{
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 60px;
+}
+.weddingtimeline1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.weddingtimeline2 {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    
+}
+.btn{
+    background-color: pink;
+}
+
+.stay{
+    width:100%;
+    height: auto;
+    background-image:url(golden_frame-p3rdec1s7wsincn3uv8ept2c062n666kuw71azjvd8.png), url(registry_bg03.jpg);
+    background-position: top center , left top;
+    background-repeat: no-repeat, repeat;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card2 {
+
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: url(benzz-park-1.jpg);
+    background-position: center;
+    text-shadow: 10px; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+    border-radius: 50px 0 50px 0;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .card3 {
+
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    background: url(lemonade-phuket.jpg);
+    background-position: center;
+
+    text-shadow: 10px; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+    border-radius: 50px 0 50px 0;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .togehter{
+    width:100%;
+    height: auto;
+    background-image:url(hummingbird-p3rdgi2durvqaueu70qklv2r8std6gnuhsflq3xyn8.png), url(rsvp_bg03.jpg);
+    background-position: top center , center;
+    background-repeat: no-repeat, repeat;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.forward{
+    width:100%;
+    height: auto;
+    background:white;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+
+
+.venue{
+    width:100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.venue img{
+    width:50%;
+    height: 300px;
+    display: inline;
+    border:2px solid #f15;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.venue p{
+    font-size: 35px;
+    line-height: 30px;
+    color:#333;
+}
+
+.party{
+    width:100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.party img{
+    width:50%;
+    height: 300px;
+    display: inline;
+    border:2px solid #f15;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.party p{
+    font-size: 35px;
+    line-height: 30px;
+    color:#333;
+}
+footer{
+    width:100%;
+    height: auto;
+    color:#ddd;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: #555;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer i{
+    color:skyblue;
+    font-size: 30px;
+    margin-left: 20px;
+}
